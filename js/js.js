@@ -1,2 +1,5 @@
-alert("hola");
-toastr.info('Are you the 6 fingered man?');
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        toastr["info"]("Bienvenido a la Pagina","Titulo de Toast");        
+    });
+});
