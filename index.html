@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- CSS Iconos -->
@@ -15,10 +17,11 @@
     <link rel="stylesheet" href="css/toastr.min.css">
 
     
-    <title>Plantilla Base</title>
+    <title>Plantilla Base Paginas WEB</title>
   	</head>
   	<body>
-    
+
+  <!--NAV VAR-->  
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">JSMC</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -33,27 +36,63 @@
       </div>
     </div>
   </nav>
-
+ <!--Contenedor Principal-->
   <div class="container mt-5">
     <h1>Titulo de Prueba</h1>
     <button class="btn btn-success" id="btn1">Notificacion</button>
     <br>
-    <span style="font-size: 3em; color: Tomato;">
+    <span style="font-size: 3em; color: rgb(165, 34, 11);">
       <i class="fas fa-camera"></i>
     </span>
       <i class="fas fa-camera"></i>
 
-    <div id="cont1">
-      <ul>
-        <li>Hello World</li>
-        <li>Hola mundo</li>
-        <li>Olá mundo</li>        
-      </ul>
-</div>
+      <div id="cont1" style="font-family: 'Permanent Marker', cursive;text-align:center;">  <!--Div que contiene Efecto Transición del TEXTO-->
+        <ul>
+          <li>Hello World </li>
+          <li>Hola mundo</li>
+          <li>Olá mundo</li>        
+        </ul>
+      </div>
+
+      <br>
+      <br>
+
+      <div id="cont2" style="font-family: 'Permanent Marker', cursive; text-align: center;">  <!--Div que contiene Efecto de Escritura de TEXTO-->
+        <h2>Lenguajes de Programacion: <span class="typed"></span></h2>
+      </div>
+
+      <br>
+      <br>
+
+      <div style="width: 30%;margin: 0 auto;">
+        <div id="widget-Reloj">
+
+          <div id="fecha">
+            <p id="diaSemana" class="diaSemana"></p>
+            <p id="dia" class="dia"></p>
+            
+            <p id="mes" class="mes"></p>
+            
+            <p id="year" class="year"></p>
+          </div>
+
+          <div id="reloj">
+            <p id="horas" class="horas"></p>
+            <p>:</p>
+            <p id="minutos" class="minutos"></p>
+            <p>:</p>
+            <div id="caja-segundos">
+              <p id="ampm" class="ampm"></p>
+              <p id="segundos" class="segundos"></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
 
   </div>
-
- 
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
@@ -62,6 +101,7 @@
     <script src="js/all.min.js"></script>  
     <script src="js/toastr.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.js-V2-0-11.js"></script>
     <script src="js/js.js"></script>
     
      
